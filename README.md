@@ -27,10 +27,8 @@ pip install requests beautifulsoup4 pandas
 1. Extract Data:
  * The script fetches the HTML content of the webpage using requests.
  * Using BeautifulSoup, it parses the HTML to find the required table data.
-2. Process Data:
- *The data is cleaned and organized into a pandas DataFrame.
-3. Save Data:
- *The DataFrame is exported to a CSV file and stored in the output/ directory.
+2. Process Data: The data is cleaned and organized into a pandas DataFrame.
+3. Save Data: The DataFrame is exported to a CSV file and stored in the output/ directory.
 
 # License
 
